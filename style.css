@@ -1,0 +1,134 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+  background-color: #B0C4B1;
+}
+
+/* STYLE TEXT */
+header {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Gamja Flower', cursive;
+  font-size: 70px;
+  color: #FAEDCD;
+  text-shadow: 1px 1px #D4A373;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Gamja Flower', cursive;
+  font-size: 50px;
+  color: #FAEDCD;
+  text-align: center;
+  text-shadow: 1px 1px #D4A373;
+  padding: 20px;
+}
+
+h3 {
+  font-family: 'Gamja Flower', cursive;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Gamja Flower', cursive;
+  font-size: 30px;
+  padding: 15px;
+}
+
+.info-section {
+  background-color: #c4d9c5;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 20px;
+}
+
+/* STYLE IMAGES */
+.picture {
+  display: flex;
+  justify-content: center;
+  background-color: #c4d9c5;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 20px;
+}
+
+#flower-book {
+  border-radius: 50px;
+  margin-left: 50px;
+}
+
+.solutions {
+  display: flex;
+  justify-content: center;
+}
+
+#coffee {
+  border-radius: 50px;
+  margin-left: 50px; 
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  background-color: #ededed;
+  padding: 20px;
+}
+
+#journal {
+  border-radius: 50px;
+  margin-right: 50px;
+}
+/* STYLE NAV BAR */
+ul {
+  font-family: 'Gamja Flower', cursive;
+  background-color: #c4d9c5;
+  overflow: hidden;
+  padding: 1em;
+  text-align: center;
+}
+
+li {
+  font-weight: bold;
+  font-size: 30px;
+  display: inline;
+  padding: 2em;
+}
+
+li a {
+  text-decoration: none;
+  color: #FAEDCD;
+  text-shadow: 1px 1px #D4A373;
+}
+
+li a:hover{
+  background-color: #B0C4B1;
+  border-radius: 20px;
+}
+/* STYLE BUTTONS */
+#button {
+  font-family: 'Gamja Flower', cursive;
+  font-size: 20px;
+  padding: 20px;
+  background-color: #FAEDCD;
+  border-radius: 50px;
+  border: none;
+  margin-top: 30px;
+}
+
+#button:hover {
+  background-color: #D4A373;
+}
+
+.buttonCaption {
+  text-align:center;
+  margin-top: 30px;
+}
+/* ADD MORE! */
